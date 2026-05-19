@@ -1,1 +1,46 @@
 
+<div class="orders-container">
+  <h2>My Orders</h2>
+
+  <!-- Loading -->
+  @if(loading()) {
+    <p>Loading orders...</p>
+  }
+
+  <!-- No Orders -->
+  @if(!loading() && orders().length === 0) {
+    <p>No orders found</p>
+  }
+
+  <!-- Orders List -->
+  @for(order of orders(); track order.id) {
+
+    <div class="order-card">
+
+      <div class="order-header">
+        <p><strong>Order ID:</strong> {{ order.id }}</p>
+        <p><strong>Date:</strong> {{ order.createdAt | date:'medium' }}</p>
+      </div>
+
+      <div class="order-status">
+        <p><strong>Status:</strong> {{ order.status }}</p>
+        <p><strong>Payment:</strong> {{ order.paymentStatus }}</p>
+      </div>
+
+      <h4>Items:</h4>
+
+      @for(item of order.items; track item.id) {
+        <div class="order-item">
+          <span>{{ item.name }}</span>
+          <span>x{{ item.quantity }}</span>
+          <span>₹{{ item.price }}</span>
+        </div>
+      }
+
+      <div class="order-total">
+        <strong>Total: ₹{{ order.totalAmount }}</strong>
+      </div>
+
+    </div>
+  }
+</div>

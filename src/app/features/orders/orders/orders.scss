@@ -1,0 +1,27 @@
+.orders-container {
+  padding: 20px;
+}
+
+.order-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.order-header,
+.order-status {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.order-total {
+  text-align: right;
+  margin-top: 10px;
+}
