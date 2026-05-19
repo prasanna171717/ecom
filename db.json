@@ -1,0 +1,1397 @@
+{
+  "users": [
+    {
+      "name": "pranavi",
+      "email": "p@v.com",
+      "password": "123456",
+      "role": "user",
+      "id": "EEwwt1I1v38"
+    },
+    {
+      "name": "vijay kumar",
+      "email": "vj@y.com",
+      "password": "987654",
+      "role": "user",
+      "id": "VTREL1AeBrw"
+    },
+    {
+      "name": "prasanna",
+      "email": "l@p.com",
+      "password": "122434",
+      "role": "user",
+      "id": "1WG8RKcpulU"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 15",
+      "description": "Latest Apple smartphone with A16 chip",
+      "price": 79999,
+      "stock": 12,
+      "category": "Mobiles"
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S24",
+      "description": "Premium Android smartphone with AMOLED display",
+      "price": 69999,
+      "stock": 8,
+      "category": "Mobiles"
+    },
+    {
+      "id": "3",
+      "name": "OnePlus 12",
+      "description": "Fast performance flagship phone",
+      "price": 59999,
+      "stock": 15,
+      "category": "Mobiles"
+    },
+    {
+      "id": "4",
+      "name": "MacBook Air M3",
+      "description": "Lightweight Apple laptop with M3 chip",
+      "price": 124999,
+      "stock": 5,
+      "category": "Laptops"
+    },
+    {
+      "id": "5",
+      "name": "Dell XPS 13",
+      "description": "Premium ultrabook for professionals",
+      "price": 109999,
+      "stock": 0,
+      "category": "Laptops"
+    },
+    {
+      "id": "6",
+      "name": "HP Pavilion 15",
+      "description": "Affordable everyday laptop",
+      "price": 58999,
+      "stock": 10,
+      "category": "Laptops"
+    },
+    {
+      "id": "7",
+      "name": "Sony WH-1000XM5",
+      "description": "Noise cancelling wireless headphones",
+      "price": 29999,
+      "stock": 20,
+      "category": "Accessories"
+    },
+    {
+      "id": "8",
+      "name": "Apple AirPods Pro",
+      "description": "Premium wireless earbuds",
+      "price": 24999,
+      "stock": 18,
+      "category": "Accessories"
+    },
+    {
+      "id": "9",
+      "name": "Boat Rockerz 550",
+      "description": "Budget Bluetooth headphones",
+      "price": 1999,
+      "stock": 30,
+      "category": "Accessories"
+    },
+    {
+      "id": "10",
+      "name": "iPad Air",
+      "description": "Powerful tablet for work and creativity",
+      "price": 64999,
+      "stock": 7,
+      "category": "Tablets"
+    },
+    {
+      "id": "11",
+      "name": "Samsung Galaxy Tab S9",
+      "description": "Android productivity tablet",
+      "price": 58999,
+      "stock": 9,
+      "category": "Tablets"
+    },
+    {
+      "id": "12",
+      "name": "Amazon Kindle Paperwhite",
+      "description": "E-reader with glare-free display",
+      "price": 14999,
+      "stock": 14,
+      "category": "Tablets"
+    },
+    {
+      "id": "13",
+      "name": "LG OLED Smart TV 55",
+      "description": "55-inch 4K OLED television",
+      "price": 89999,
+      "stock": 4,
+      "category": "Television"
+    },
+    {
+      "id": "14",
+      "name": "Samsung Crystal UHD 50",
+      "description": "50-inch smart UHD TV",
+      "price": 55999,
+      "stock": 6,
+      "category": "Television"
+    },
+    {
+      "id": "15",
+      "name": "Mi Smart TV 43",
+      "description": "Affordable smart television",
+      "price": 28999,
+      "stock": 11,
+      "category": "Television"
+    },
+    {
+      "id": "16",
+      "name": "Canon EOS 1500D",
+      "description": "Beginner DSLR camera",
+      "price": 42999,
+      "stock": 8,
+      "category": "Cameras"
+    },
+    {
+      "id": "17",
+      "name": "Sony Alpha A7 III",
+      "description": "Professional mirrorless camera",
+      "price": 159999,
+      "stock": 3,
+      "category": "Cameras"
+    },
+    {
+      "id": "18",
+      "name": "GoPro Hero 12",
+      "description": "Action camera for adventure",
+      "price": 44999,
+      "stock": 9,
+      "category": "Cameras"
+    },
+    {
+      "id": "19",
+      "name": "Apple Watch Series 9",
+      "description": "Smart fitness watch",
+      "price": 41999,
+      "stock": 13,
+      "category": "Wearables"
+    },
+    {
+      "id": "20",
+      "name": "Samsung Galaxy Watch 6",
+      "description": "Android smartwatch",
+      "price": 32999,
+      "stock": 12,
+      "category": "Wearables"
+    }
+  ],
+  "payments": [
+    {
+      "id": "1",
+      "orderId": "1",
+      "amount": 1000,
+      "status": "success",
+      "method": "card",
+      "cardLast4": "4242",
+      "createdAt": "2026-01-01T10:00:00Z"
+    },
+    {
+      "orderId": null,
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "9234",
+      "createdAt": "2026-05-05T09:50:44.411Z",
+      "id": "iev2IpzcMl8"
+    },
+    {
+      "orderId": "dfZxB9-j9b0",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "4433",
+      "createdAt": "2026-05-05T11:09:52.820Z",
+      "id": "1JEqKPbX_9E"
+    },
+    {
+      "orderId": "n2Xjk7ewSbc",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "1234",
+      "createdAt": "2026-05-05T11:14:57.659Z",
+      "id": "m_hqUgWaFP4"
+    },
+    {
+      "orderId": "n2Xjk7ewSbc",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "1234",
+      "createdAt": "2026-05-05T11:14:58.916Z",
+      "id": "JkWDvOijNJ0"
+    },
+    {
+      "orderId": "rf52EbUq4xg",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "2323",
+      "createdAt": "2026-05-05T11:17:24.654Z",
+      "id": "NPhWcsJQcRM"
+    },
+    {
+      "orderId": "p81GCUKoXgQ",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "2345",
+      "createdAt": "2026-05-05T11:29:28.345Z",
+      "id": "by--mI4ZRTs"
+    },
+    {
+      "orderId": "bD8Ps-zaFV0",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "3455",
+      "createdAt": "2026-05-05T11:31:37.383Z",
+      "id": "KcvYZFbyI0I"
+    },
+    {
+      "orderId": "QzxnTMtrM5I",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "3456",
+      "createdAt": "2026-05-05T11:42:43.941Z",
+      "id": "zDVE_Wrjb4g"
+    },
+    {
+      "orderId": "DzakTH_2xkk",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "3234",
+      "createdAt": "2026-05-05T11:47:15.136Z",
+      "id": "iy8rNMawH-c"
+    },
+    {
+      "orderId": "MpVliajKVSw",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "5432",
+      "createdAt": "2026-05-05T11:47:56.806Z",
+      "id": "7J1W_18V-Bo"
+    },
+    {
+      "orderId": "WZU4jB4If9Q",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "5678",
+      "createdAt": "2026-05-05T11:53:42.151Z",
+      "id": "wr_l4v6W35c"
+    },
+    {
+      "orderId": "H-mmWe5xb6A",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "3212",
+      "createdAt": "2026-05-05T12:08:22.321Z",
+      "id": "maHG7Ty1wWE"
+    },
+    {
+      "orderId": "Q3eUq_O97yg",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "4477",
+      "createdAt": "2026-05-11T06:50:57.644Z",
+      "id": "YNUTgsOvlwE"
+    },
+    {
+      "orderId": "1cLejH49-bs",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "5437",
+      "createdAt": "2026-05-11T06:51:56.644Z",
+      "id": "jrXKR4uBTVI"
+    },
+    {
+      "orderId": "IxTKeZD7ZBE",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "1234",
+      "createdAt": "2026-05-11T06:54:36.493Z",
+      "id": "bQrhXMSl43Q"
+    },
+    {
+      "orderId": "wGjlX_6KkM8",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "5455",
+      "createdAt": "2026-05-15T03:31:35.220Z",
+      "id": "vNRUW7biU34"
+    },
+    {
+      "orderId": "0zoBy66VJ18",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "2343",
+      "createdAt": "2026-05-15T03:32:23.979Z",
+      "id": "Z_1cmECegMQ"
+    },
+    {
+      "orderId": "Pu2UIq8ZtTY",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "3232",
+      "createdAt": "2026-05-15T03:34:01.264Z",
+      "id": "W02uFLkcuVI"
+    },
+    {
+      "orderId": "IoTvCoC5Q3Y",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "4343",
+      "createdAt": "2026-05-15T03:35:16.528Z",
+      "id": "XVbHPSjAZ2o"
+    },
+    {
+      "orderId": "zUf-9zgA8mw",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "2334",
+      "createdAt": "2026-05-15T03:39:01.225Z",
+      "id": "wNEybgy9T98"
+    },
+    {
+      "orderId": "Wl1_kdvuy8Q",
+      "amount": 1000,
+      "method": "card",
+      "status": "success",
+      "cardLast4": "2222",
+      "createdAt": "2026-05-19T06:50:01.515Z",
+      "id": "iBAMmebxbZA"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": "1",
+      "items": [],
+      "totalAmount": 0,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-01-01T10:00:00Z"
+    },
+    {
+      "userId": "DS1oaNihT1Y",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 2
+        }
+      ],
+      "totalAmount": 119998,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T09:49:09.213Z",
+      "id": "aIbMBSs6MBM"
+    },
+    {
+      "userId": "DS1oaNihT1Y",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 2
+        }
+      ],
+      "totalAmount": 119998,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T09:49:21.930Z",
+      "id": "-ElvJAcLGTU"
+    },
+    {
+      "userId": "DS1oaNihT1Y",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 2
+        },
+        {
+          "id": "4",
+          "name": "MacBook Air M3",
+          "description": "Lightweight Apple laptop with M3 chip",
+          "price": 124999,
+          "stock": 5,
+          "category": "Laptops",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Samsung Galaxy S24",
+          "description": "Premium Android smartphone with AMOLED display",
+          "price": 69999,
+          "stock": 8,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 314996,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T09:51:12.578Z",
+      "id": "TGZHhEyUrUI"
+    },
+    {
+      "userId": "DS1oaNihT1Y",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 2
+        },
+        {
+          "id": "4",
+          "name": "MacBook Air M3",
+          "description": "Lightweight Apple laptop with M3 chip",
+          "price": 124999,
+          "stock": 5,
+          "category": "Laptops",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Samsung Galaxy S24",
+          "description": "Premium Android smartphone with AMOLED display",
+          "price": 69999,
+          "stock": 8,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 314996,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T09:51:59.672Z",
+      "id": "Qo45s0zenEE"
+    },
+    {
+      "userId": "DS1oaNihT1Y",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 2
+        },
+        {
+          "id": "4",
+          "name": "MacBook Air M3",
+          "description": "Lightweight Apple laptop with M3 chip",
+          "price": 124999,
+          "stock": 5,
+          "category": "Laptops",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Samsung Galaxy S24",
+          "description": "Premium Android smartphone with AMOLED display",
+          "price": 69999,
+          "stock": 8,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 314996,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T09:52:12.362Z",
+      "id": "ni6ArMHvZIg"
+    },
+    {
+      "userId": "DS1oaNihT1Y",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 2
+        },
+        {
+          "id": "4",
+          "name": "MacBook Air M3",
+          "description": "Lightweight Apple laptop with M3 chip",
+          "price": 124999,
+          "stock": 5,
+          "category": "Laptops",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Samsung Galaxy S24",
+          "description": "Premium Android smartphone with AMOLED display",
+          "price": 69999,
+          "stock": 8,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 314996,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T09:53:11.470Z",
+      "id": "Pyrmj_d8xn8"
+    },
+    {
+      "userId": "DS1oaNihT1Y",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 2
+        },
+        {
+          "id": "4",
+          "name": "MacBook Air M3",
+          "description": "Lightweight Apple laptop with M3 chip",
+          "price": 124999,
+          "stock": 5,
+          "category": "Laptops",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Samsung Galaxy S24",
+          "description": "Premium Android smartphone with AMOLED display",
+          "price": 69999,
+          "stock": 8,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 314996,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T09:54:24.016Z",
+      "id": "4-tfDw_xVys"
+    },
+    {
+      "userId": "DS1oaNihT1Y",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 2
+        },
+        {
+          "id": "4",
+          "name": "MacBook Air M3",
+          "description": "Lightweight Apple laptop with M3 chip",
+          "price": 124999,
+          "stock": 5,
+          "category": "Laptops",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Samsung Galaxy S24",
+          "description": "Premium Android smartphone with AMOLED display",
+          "price": 69999,
+          "stock": 8,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 314996,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T09:55:40.530Z",
+      "id": "fvYlrpRpKOc"
+    },
+    {
+      "userId": "DS1oaNihT1Y",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T09:56:05.371Z",
+      "id": "P0Ysh5icwUI"
+    },
+    {
+      "userId": "DS1oaNihT1Y",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T09:57:04.298Z",
+      "id": "vFESHWArhp8"
+    },
+    {
+      "userId": "DS1oaNihT1Y",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T09:58:54.258Z",
+      "id": "MvCuHOFup_Q"
+    },
+    {
+      "userId": "DS1oaNihT1Y",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T10:11:36.612Z",
+      "id": "qjfshBTgRnQ"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T10:12:14.938Z",
+      "id": "rN0HZrlnBm0"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T10:18:12.198Z",
+      "id": "Yi6cWnsEuD8"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T10:20:01.014Z",
+      "id": "PsU-A5sDkvQ"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T10:20:09.982Z",
+      "id": "dZZLUvgCXzQ"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T10:20:26.347Z",
+      "id": "JybVI0Ph2tQ"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T10:36:49.679Z",
+      "id": "ut99KYQpA6g"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T10:39:01.266Z",
+      "id": "2zCDuS_h7LE"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "name": "MacBook Air M3",
+          "description": "Lightweight Apple laptop with M3 chip",
+          "price": 124999,
+          "stock": 5,
+          "category": "Laptops",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 184998,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T10:39:22.221Z",
+      "id": "6ipl4t-OFE0"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "name": "MacBook Air M3",
+          "description": "Lightweight Apple laptop with M3 chip",
+          "price": 124999,
+          "stock": 5,
+          "category": "Laptops",
+          "quantity": 2
+        }
+      ],
+      "totalAmount": 309997,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T10:43:58.803Z",
+      "id": "HOtkTGSKIsQ"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T10:21:14.307Z",
+      "id": "5sM9KlKGXXU"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T10:44:29.062Z",
+      "id": "GbaqQlIYaZk"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T11:02:04.920Z",
+      "id": "2gmYg5HcRQs"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "name": "MacBook Air M3",
+          "description": "Lightweight Apple laptop with M3 chip",
+          "price": 124999,
+          "stock": 5,
+          "category": "Laptops",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 184998,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2026-05-05T11:06:08.758Z",
+      "id": "ZP3TMDiIu4c"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-05T11:09:25.670Z",
+      "id": "dfZxB9-j9b0"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "4",
+          "name": "MacBook Air M3",
+          "description": "Lightweight Apple laptop with M3 chip",
+          "price": 124999,
+          "stock": 5,
+          "category": "Laptops",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 124999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-05T11:14:43.026Z",
+      "id": "n2Xjk7ewSbc"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "2",
+          "name": "Samsung Galaxy S24",
+          "description": "Premium Android smartphone with AMOLED display",
+          "price": 69999,
+          "stock": 8,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 69999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-05T11:17:09.925Z",
+      "id": "rf52EbUq4xg"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "8",
+          "name": "Apple AirPods Pro",
+          "description": "Premium wireless earbuds",
+          "price": 24999,
+          "stock": 18,
+          "category": "Accessories",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 24999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-05T11:29:20.317Z",
+      "id": "p81GCUKoXgQ"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "4",
+          "name": "MacBook Air M3",
+          "description": "Lightweight Apple laptop with M3 chip",
+          "price": 124999,
+          "stock": 5,
+          "category": "Laptops",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 124999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-05T11:31:27.549Z",
+      "id": "bD8Ps-zaFV0"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "12",
+          "name": "Amazon Kindle Paperwhite",
+          "description": "E-reader with glare-free display",
+          "price": 14999,
+          "stock": 14,
+          "category": "Tablets",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 14999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-05T11:42:29.906Z",
+      "id": "QzxnTMtrM5I"
+    },
+    {
+      "userId": "EEwwt1I1v38",
+      "items": [
+        {
+          "id": "1",
+          "name": "iPhone 15",
+          "description": "Latest Apple smartphone with A16 chip",
+          "price": 79999,
+          "stock": 12,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 79999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-05T11:47:04.716Z",
+      "id": "DzakTH_2xkk"
+    },
+    {
+      "userId": "EEwwt1I1v38",
+      "items": [
+        {
+          "id": "8",
+          "name": "Apple AirPods Pro",
+          "description": "Premium wireless earbuds",
+          "price": 24999,
+          "stock": 18,
+          "category": "Accessories",
+          "quantity": 2
+        },
+        {
+          "id": "7",
+          "name": "Sony WH-1000XM5",
+          "description": "Noise cancelling wireless headphones",
+          "price": 29999,
+          "stock": 20,
+          "category": "Accessories",
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "name": "HP Pavilion 15",
+          "description": "Affordable everyday laptop",
+          "price": 58999,
+          "stock": 10,
+          "category": "Laptops",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 138996,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-05T11:47:44.124Z",
+      "id": "MpVliajKVSw"
+    },
+    {
+      "userId": "EEwwt1I1v38",
+      "items": [
+        {
+          "id": "4",
+          "name": "MacBook Air M3",
+          "description": "Lightweight Apple laptop with M3 chip",
+          "price": 124999,
+          "stock": 5,
+          "category": "Laptops",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 124999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-05T11:53:33.791Z",
+      "id": "WZU4jB4If9Q"
+    },
+    {
+      "userId": "VTREL1AeBrw",
+      "items": [
+        {
+          "id": "15",
+          "name": "Mi Smart TV 43",
+          "description": "Affordable smart television",
+          "price": 28999,
+          "stock": 11,
+          "category": "Television",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 28999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-05T12:08:11.583Z",
+      "id": "H-mmWe5xb6A"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "4",
+          "name": "MacBook Air M3",
+          "description": "Lightweight Apple laptop with M3 chip",
+          "price": 124999,
+          "stock": 5,
+          "category": "Laptops",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 124999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-11T06:50:23.846Z",
+      "id": "Q3eUq_O97yg"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "8",
+          "name": "Apple AirPods Pro",
+          "description": "Premium wireless earbuds",
+          "price": 24999,
+          "stock": 18,
+          "category": "Accessories",
+          "quantity": 1
+        },
+        {
+          "id": "7",
+          "name": "Sony WH-1000XM5",
+          "description": "Noise cancelling wireless headphones",
+          "price": 29999,
+          "stock": 20,
+          "category": "Accessories",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 54998,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-11T06:51:36.709Z",
+      "id": "1cLejH49-bs"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "2",
+          "name": "Samsung Galaxy S24",
+          "description": "Premium Android smartphone with AMOLED display",
+          "price": 69999,
+          "stock": 8,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 69999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-11T06:54:24.877Z",
+      "id": "IxTKeZD7ZBE"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "2",
+          "name": "Samsung Galaxy S24",
+          "description": "Premium Android smartphone with AMOLED display",
+          "price": 69999,
+          "stock": 8,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 69999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-15T03:31:12.250Z",
+      "id": "wGjlX_6KkM8"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-15T03:32:09.053Z",
+      "id": "0zoBy66VJ18"
+    },
+    {
+      "userId": "EEwwt1I1v38",
+      "items": [
+        {
+          "id": "2",
+          "name": "Samsung Galaxy S24",
+          "description": "Premium Android smartphone with AMOLED display",
+          "price": 69999,
+          "stock": 8,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 69999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-15T03:33:49.436Z",
+      "id": "Pu2UIq8ZtTY"
+    },
+    {
+      "userId": "2",
+      "items": [
+        {
+          "id": "2",
+          "name": "Samsung Galaxy S24",
+          "description": "Premium Android smartphone with AMOLED display",
+          "price": 69999,
+          "stock": 8,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 69999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-15T03:35:03.733Z",
+      "id": "IoTvCoC5Q3Y"
+    },
+    {
+      "userId": "1WG8RKcpulU",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-15T03:38:46.813Z",
+      "id": "zUf-9zgA8mw"
+    },
+    {
+      "userId": "EEwwt1I1v38",
+      "items": [
+        {
+          "id": "3",
+          "name": "OnePlus 12",
+          "description": "Fast performance flagship phone",
+          "price": 59999,
+          "stock": 15,
+          "category": "Mobiles",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 59999,
+      "status": "confirmed",
+      "paymentStatus": "success",
+      "createdAt": "2026-05-19T06:49:30.135Z",
+      "id": "Wl1_kdvuy8Q"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
