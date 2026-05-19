@@ -1,0 +1,19 @@
+<!-- <mat-toolbar color="'primary">
+
+  <span> {{title}} </span>
+
+  <span class="spacer"> </span>
+
+  <button mat-button routerLink="/products" routerLinkActive="active-link"> Products</button>
+  <button mat-button routerLink="/cart" routerLinkActive="active-link"> Cart</button>
+  @if (!isLoggedIn()){
+  <button mat-button routerLink="/login" routerLinkActive="active-link"> Login</button>}
+
+   @if (isLoggedIn()){
+  <button mat-button (click) = "logout()" > Logout</button>}
+</mat-toolbar> -->
+
+<div class="page-container">
+  <app-navbar></app-navbar>
+  <router-outlet></router-outlet>
+</div>
