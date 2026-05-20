@@ -1,1 +1,27 @@
+<mat-toolbar color="primary">
+      <span routerLink="/products" style="cursor: pointer;">
+        My Store
+          </span>
 
+      <span class="spacer"></span>
+
+      <a mat-button routerLink="/products">
+        <mat-icon> store</mat-icon>
+        Products</a>
+
+      @if(authService.isAuthenticated()) {
+        <a mat-button routerLink="/cart"> <mat-icon> shopping_cart</mat-icon>Cart {{cartService.getTotalItems()}}</a>
+        <a mat-button routerLink="/orders"> <mat-icon> receipt</mat-icon>Orders</a>
+        <a mat-button routerLink="/auth/profile"> <mat-icon> person</mat-icon>Profile</a>
+
+        <button mat-raised-button color="warn" (click)="logout()"><mat-icon> logout</mat-icon>
+              Logout
+            </button>
+      } @else {
+        <a mat-button routerLink="/auth/login"><mat-icon> login</mat-icon>Login</a>
+
+        <a mat-raised-button color="accent" routerLink="/auth/register"><mat-icon> person_add</mat-icon>
+              Register
+            </a>
+      }
+</mat-toolbar>
