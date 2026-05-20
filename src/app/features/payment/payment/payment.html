@@ -1,1 +1,82 @@
 
+<div class="payment-container">
+
+  <h2>Secure Payment</h2>
+
+  <form [formGroup]="paymentForm" (ngSubmit)="pay()">
+
+    <!-- Card Number -->
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Card Number</mat-label>
+      <input
+        matInput
+        formControlName="cardNumber"
+        placeholder="1234 5678 9012 3456"
+        maxlength="16"
+      />
+
+      <mat-error *ngIf="paymentForm.get('cardNumber')?.hasError('required')">
+        Card number is required
+      </mat-error>
+
+      <mat-error *ngIf="paymentForm.get('cardNumber')?.hasError('pattern')">
+        Enter valid 16-digit card number
+      </mat-error>
+    </mat-form-field>
+
+    <!-- Expiry + CVV -->
+    <div class="row">
+
+      <!-- Expiry -->
+      <mat-form-field appearance="outline" class="half-width">
+        <mat-label>Expiry (MM/YY)</mat-label>
+        <input
+          matInput
+          formControlName="expiry"
+          placeholder="MM/YY"
+        />
+
+        <mat-error *ngIf="paymentForm.get('expiry')?.hasError('required')">
+          Expiry is required
+        </mat-error>
+
+        <mat-error *ngIf="paymentForm.get('expiry')?.hasError('pattern')">
+          Format should be MM/YY
+        </mat-error>
+      </mat-form-field>
+
+      <!-- CVV -->
+      <mat-form-field appearance="outline" class="half-width">
+        <mat-label>CVV</mat-label>
+        <input
+          matInput
+          type="password"
+          formControlName="cvv"
+          maxlength="3"
+        />
+
+        <mat-error *ngIf="paymentForm.get('cvv')?.hasError('required')">
+          CVV is required
+        </mat-error>
+
+        <mat-error *ngIf="paymentForm.get('cvv')?.hasError('pattern')">
+          Enter valid 3-digit CVV
+        </mat-error>
+      </mat-form-field>
+
+    </div>
+
+    <!-- Pay Button -->
+    <button
+      mat-raised-button
+      color="primary"
+      class="full-width"
+      type="submit"
+      [disabled]="paymentForm.invalid || loading()"
+    >
+      {{ loading() ? 'Processing...' : 'Pay Now' }}
+    </button>
+
+  </form>
+
+</div>
