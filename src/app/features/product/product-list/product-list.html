@@ -1,1 +1,75 @@
+<!-- <h2> Products</h2>
+
+@if(loading()){
+    <div calss="loading">
+        <mat-spinner></mat-spinner>
+    </div>
+}
+
+<div class="product-grid">
+@for(product of products(); track product.id){
+    <mat-card class="'product-card">
+        <mat-card-title>
+            {{product.name}}
+        </mat-card-title>
+
+        <mat-card-content>
+            <p> {{product.price}}</p>
+        </mat-card-content>
+
+        <mat-card-actions>
+            <button mat-raised-button color="primary" (click)="addToCart(product)">
+                Add to Cart
+            </button>
+        </mat-card-actions>
+    </mat-card>
+}
+
+</div> -->
+
+<div class="products-page">
+  <h2>Our Products</h2>
+
+  <mat-form-field appearance="outline" class="search-bar">
+    <mat-label>Search products</mat-label>
+    <input
+      matInput
+      type="text"
+      placeholder="Search by name or category"
+      (input)="search($event)"
+    />
+  </mat-form-field>
+
+  <div class="product-grid">
+    @for(product of filteredProducts(); track product.id) {
+      <mat-card class="product-card">
+
+        <mat-card-title>{{ product.name }}</mat-card-title>
+
+        <mat-card-content>
+          <p>{{ product.description }}</p>
+          <p><strong>Category:</strong> {{ product.category }}</p>
+          <p><strong>Price:</strong> ₹{{ product.price }}</p>
+
+          @if(product.stock >0) {
+            <p class="in-stock">In Stock</p>
+          } @else {
+            <p class="out-stock">Out of Stock</p>
+          }
+        </mat-card-content>
+
+        <mat-card-actions>
+          <button
+            mat-raised-button
+            color="primary"
+            (click)="addToCart(product)"
+            [disabled]="!((product.stock)>0 )"
+          >
+            {{authService.isAuthenticated()? 'Add to Cart': 'Login to Add'}}
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    }
+  </div>
+</div>
 
